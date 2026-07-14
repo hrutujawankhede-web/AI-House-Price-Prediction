@@ -11,7 +11,7 @@ import plotly.express as px
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
-DATA_PATH = os.path.join(BASE_DIR, "..", "House price ai.csv")
+DATA_PATH = os.path.join(BASE_DIR, "House price ai.csv")
 
 model = joblib.load(MODEL_PATH)
 
